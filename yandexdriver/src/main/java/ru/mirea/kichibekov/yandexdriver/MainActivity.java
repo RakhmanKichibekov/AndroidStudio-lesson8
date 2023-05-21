@@ -42,8 +42,7 @@ public class MainActivity extends AppCompatActivity implements
         DrivingSession.DrivingRouteListener{
     private ActivityMainBinding binding;
     private final String MAPKIT_API_KEY = "e1a158d3-4fe9-4832-b8b1-6a030005679f";
-
-// В методе onCreate()
+    
     private Point ROUTE_START_LOCATION = new Point(55.670005, 37.479894);
     private final Point ROUTE_END_LOCATION = new Point(55.759122, 37.624777);
     private final Point SCREEN_CENTER = new Point(
